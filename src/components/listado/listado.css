@@ -1,0 +1,7 @@
+.row.container.mx-auto{
+    min-height: 90vh;
+}
+.col-8.mx-auto.col-sm-3.my-3.rounded.shadow-lg{
+    min-width: 300px;
+
+}
