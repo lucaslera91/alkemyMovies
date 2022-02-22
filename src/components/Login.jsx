@@ -45,24 +45,35 @@ function Login() {
               })
             return
         }
-        //console.log('Formulario enviado')
-        axios
-            .post('http://challenge-react.alkemy.org', {email, password})
-            .then(res => {
-                const token = res.data.token;
-                
-                sessionStorage.setItem('token', token)
-                Swal.fire(
-                    'Good job!', 
-                    `Formulario enviado`,
-                    'success'
-                  );
-                  //alert(token)
-                  //<Navigate replace to='/listado'/>
 
-            }).then(()=> {
-                navigate('/listado')
-            })
+        const token = '54543541364614';
+                
+        sessionStorage.setItem('token', token)
+        Swal.fire(
+            'Good job!', 
+            `Formulario enviado`,
+            'success'
+          );
+        navigate('/listado')
+
+        //console.log('Formulario enviado')
+        //axios
+        //    .post('http://challenge-react.alkemy.org', {email, password})
+        //    .then(res => {
+        //        const token = res.data.token;
+        //        
+        //        sessionStorage.setItem('token', token)
+        //        Swal.fire(
+        //            'Good job!', 
+        //            `Formulario enviado`,
+        //            'success'
+        //          );
+        //          //alert(token)
+        //          //<Navigate replace to='/listado'/>
+//
+        //    }).then(()=> {
+        //        navigate('/listado')
+        //    })
     }
 
     let token = sessionStorage.getItem('token')
