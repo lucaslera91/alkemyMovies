@@ -98,7 +98,7 @@ function Login() {
         </form>
         </div>
 
-        <p>**FYI/p>
+        <p>**FYI</p>
         <p>User: challenge@alkemy.org</p>
         <p>Password: React </p>
     
