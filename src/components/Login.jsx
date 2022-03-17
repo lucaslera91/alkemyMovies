@@ -97,6 +97,10 @@ function Login() {
             <button className='btn btn-success' type='submit'>Ingresar</button>
         </form>
         </div>
+
+        <p>**FYI/p>
+        <p>User: challenge@alkemy.org</p>
+        <p>Password: React </p>
     
     </div>
         
