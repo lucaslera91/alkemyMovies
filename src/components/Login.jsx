@@ -100,7 +100,7 @@ function Login() {
 
         <p>**FYI</p>
         <p>User: challenge@alkemy.org</p>
-        <p>Password: React </p>
+        <p>Password: react </p>
     
     </div>
         
